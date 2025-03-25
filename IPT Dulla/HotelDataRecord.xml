@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hoteldesign.xsl"?>
+<HotelInformation>
+    <HotelDetails>
+        <name>Grand Vista Hotel</name>
+        <location>123 Main St, Cityville, ST 12345</location>
+        <contactNumber>+1-987-654-3210</contactNumber>
+        <email>grandvistahotel@gmail.com</email>
+        <website>www.grandvistahotel.com</website>
+    </HotelDetails>
+
+    <RoomTypes>
+        <RoomType>
+            <type>Single</type>
+            <category>Standard</category>
+            <rate currency="Peso">₱15,000</rate>
+            <description>A compact room ideal for solo travelers, offering essential comforts and a peaceful atmosphere.</description>
+        </RoomType>
+        <RoomType>
+            <type>Double</type>
+            <category>Deluxe</category>
+            <rate currency="Peso">₱20,000</rate>
+            <description>A roomy accommodation perfect for couples, featuring upgraded amenities and a welcoming ambiance.</description>
+        </RoomType>
+        <RoomType>
+            <type>Suite</type>
+            <category>Luxury</category>
+            <rate currency="Peso">₱25,000</rate>
+            <description>An opulent suite with a separate living area, providing luxurious furnishings and exceptional services for an unforgettable experience.</description>
+        </RoomType>
+    </RoomTypes>
+
+    <Reservations>
+        <Reservation>
+            <id>H001</id>
+            <customerName>Juan Dela Cruz</customerName>
+            <identity>Passport</identity>
+            <address>456 Elm St, Springfield</address>
+            <checkIn>2025-10-01T15:00:00</checkIn>
+            <checkOut>2025-10-05T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱20,000</roomRate>
+            <paymentStatus>Paid</paymentStatus>
+            <services>Pool Access, Breakfast Included, Breakfast, Spa Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H002</id>
+            <customerName>Pedro Gonzales</customerName>
+            <identity>Driver's License</identity>
+            <address>789 Maple Ave, Metropolis</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H003</id>
+            <customerName>Joshua Latag</customerName>
+            <identity>Passport</identity>
+            <address>Lipa City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H004</id>
+            <customerName>Kim Besmar</customerName>
+            <identity>Driver's License</identity>
+            <address>Lipa City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H005</id>
+            <customerName>Erik Roxas</customerName>
+            <identity>Passport</identity>
+            <address>Lipa City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱20,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H006</id>
+            <customerName>Rico Tolentino</customerName>
+            <identity>Passport</identity>
+            <address>Tanauan City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H007</id>
+            <customerName>JV ferrer</customerName>
+            <identity>Driver's License</identity>
+            <address>Lipa City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱20,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H008</id>
+            <customerName>Jasper Dulla</customerName>
+            <identity>Driver's License</identity>
+            <address>Lipa City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱20,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H009</id>
+            <customerName>Kyla Reano</customerName>
+            <identity>Passport</identity>
+            <address>Taal Batangas</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0010</id>
+            <customerName>Crystal Libo-on</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included,Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0011</id>
+            <customerName>Carl Demalata</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0012</id>
+            <customerName>Kyla Reoyo</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0013</id>
+            <customerName>Kim Subong</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0014</id>
+            <customerName>Joshua Lapag</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱20,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0015</id>
+            <customerName>Elvin Sulit</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Suite</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0016</id>
+            <customerName>Shenny Teope</customerName>
+            <identity>Passport</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0017</id>
+            <customerName>Jose Fontonalgo</customerName>
+            <identity>Driver's License</identity>
+            <address>Quezon City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Double</roomType>
+            <roomRate currency="Peso">₱15,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Ocean View, Room Service, Gym Access</services>
+        </Reservation>
+        <Reservation>
+            <id>H0018</id>
+            <customerName>Mark Sucaldito</customerName>
+            <identity>Driver's License</identity>
+            <address>Iloilo City</address>
+            <checkIn>2025-10-02T14:00:00</checkIn>
+            <checkOut>2025-10-06T11:00:00</checkOut>
+            <roomType>Single</roomType>
+            <roomRate currency="Peso">₱25,000</roomRate>
+            <paymentStatus>Pending</paymentStatus>
+            <services>Free Wi-Fi, Pool Access, Breakfast Included,Room Service, Gym Access</services>
+        </Reservation>
+    </Reservations>
+</HotelInformation>
